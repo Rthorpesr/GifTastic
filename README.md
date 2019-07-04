@@ -10,6 +10,7 @@ Instructions give to me:
 2.) Chose ant theme (I chose sports teams). (some team names brought back some provacative gifs) (LOL!). These teams are not in the array.
 3.) In the app I am to take the topics in this array and create buttons in your HTML.
 
+Visit the site at: https://rthorpesr.github.io/GifTastic/
 
 How it the Sports GifTastic works.
 1.) a call is made to the API for gifs from all the sport teams pre-loaded in my array (Hard-coded) in the program.
