@@ -24,3 +24,14 @@ How it the Sports GifTastic works.
  5.) This app was made responsive for cell-phones and small tablets.
    
 
+Problem:
+1.) Had to select a subject for this project where you would be able to find a free APi site with gifs that fit the subject decided.
+2.) Had to sign up for an account on multiple API sites before finding the gifs needed. Each APi site produced a free Key that could be used in my code to access the APIs on it site. 
+3.) I had to limit the amount of API returning to 5.
+4.) I had to create a new button on the screen each time an sports team was selected that I had not selected. 
+5. The retuned gifs had to be able to go from stil to animate and back to still by clicking on them.
+
+Solved:
+1.) using Ajax in my Javascript code, on the get statement I set a limit of 5 APIs to be returned for each team selected.
+2.) I built an array of sports teams. If a team was selected that was not in the array, I added it to the array and created a button on the screen immediately for that team. The array had to be searched for that team name each time a user entered the name in the search. If I had not done this, duplicate team name buttons would be created.
+3.) to make the gifs go from still to animate and back to still, I created an on-click event that altered the state of the gif. If the gif was in still mode, it was switched to animate so it came move, and if it was in the animate state, on click it was switched to still.
